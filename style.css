@@ -1,0 +1,42 @@
+.image {
+    margin: auto;
+    width: 1200px;
+    height: 800px;
+    position: relative;
+}
+
+.image .caption {
+    position: absolute;
+    color: rgb(54, 50, 50);
+    left: -60px;
+    bottom: 500px;
+}
+
+.image .Button {
+    position: absolute;
+    padding: 3%;
+    left: 10px;
+    bottom: -200;
+    border: none;
+    cursor: pointer;
+    border-radius: 40%;
+}
+
+.stop {
+    background-color: red;
+}
+.forward:hover {
+    background-color: darkgray;
+}
+.left:hover {
+    background-color: darkgray;
+}
+.stop:hover {
+    background-color: darkred;
+}
+.right:hover {
+    background-color: darkgray;
+}
+.backward:hover {
+    background-color: darkgray;
+}
